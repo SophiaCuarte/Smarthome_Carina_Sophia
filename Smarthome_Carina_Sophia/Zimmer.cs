@@ -12,7 +12,7 @@ namespace Smarthome_Carina_Sophia
         public bool PersonenImZimmer;
         public double TemperaturVorgabe;
 
-        public void VerarbeiteWetterdaten(Wetterdaten wetterdaten)
+        public void VerarbeiteWetterdaten()
         {
 
         }

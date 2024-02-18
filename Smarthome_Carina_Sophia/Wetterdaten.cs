@@ -8,5 +8,10 @@ namespace Smarthome_Carina_Sophia
 {
     internal class Wetterdaten
     {
+        public double Aussentemperatur;
+
+        public bool Regen;
+
+        public double Windgeschwindigkeit;
     }
 }

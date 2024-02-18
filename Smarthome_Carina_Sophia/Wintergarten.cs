@@ -8,5 +8,6 @@ namespace Smarthome_Carina_Sophia
 {
     internal class Wintergarten : Zimmer
     {
+        public double Sonneneinstrahlung;
     }
 }

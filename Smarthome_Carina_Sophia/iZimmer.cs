@@ -6,15 +6,16 @@ using System.Threading.Tasks;
 
 namespace Smarthome_Carina_Sophia
 {
-    internal class iZimmer
+    public interface IZimmer
     {
-        public string Name;
-        public bool PersonenImZimmer;
-        public double TemperaturVorgabe;
+        public string Name { get; set; }
+        public bool PersonenImZimmer { get; set; }
+        public double TemperaturVorgabe { get; set; }
 
-        public void VerarbeiteWetterdaten()
+        public void VerarbeiteWetterdaten(Wetterdaten wetterdaten)
         {
 
         }
+
     }
 }

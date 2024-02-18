@@ -8,5 +8,12 @@ namespace Smarthome_Carina_Sophia
 {
     internal class KochherdStatus : Kueche
     {
+
+        public enum KochherdStatusEnum
+        {
+            Aus,
+            Ein,
+            AusAberNochWarm
+        }
     }
 }

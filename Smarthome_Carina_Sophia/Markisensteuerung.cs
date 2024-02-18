@@ -10,7 +10,7 @@ namespace Smarthome_Carina_Sophia
     {
         private bool heizungsVentilOffen;
 
-        public void VerarbeiteWetterdaten()
+        public void VerarbeiteWetterdaten(Wetterdaten wetterdaten)
         {
 
         }

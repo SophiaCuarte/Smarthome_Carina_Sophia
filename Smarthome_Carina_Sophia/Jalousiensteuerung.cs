@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace Smarthome_Carina_Sophia
 {
-    internal class Jalousiensteuerung
+    internal class Jalousiensteuerung :ZimmerDecorator
     {
-        public bool heizungsventilOffen;
+        private bool heizungsventilOffen;
+        public void VerarbeiteWetter(Wetterdaten wetterdaten)
+        {
 
-        
+        }
     }
 }
